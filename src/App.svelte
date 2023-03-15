@@ -1,7 +1,7 @@
 <script>
   import ContactCard from "./ContactCard.svelte";
 
-  let name = "Alex Horn";
+  let name = "Alex";
   let title = "Developer";
   let image = "favicon.png";
   let description = "C# Developer";
