@@ -1,10 +1,10 @@
 <script>
   import ContactCard from "./ContactCard.svelte";
 
-  let name = "Max";
-  let title = "";
-  let image = "";
-  let description = "";
+  let name = "Alex Horn";
+  let title = "Developer";
+  let image = "favicon.png";
+  let description = "C# Developer";
   let formState = "empty";
 
   let createdContacts = [];

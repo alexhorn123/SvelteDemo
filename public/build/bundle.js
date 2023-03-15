@@ -719,7 +719,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			p.textContent = "Card is incomplete";
-    			add_location(p, file$1, 70, 2, 1725);
+    			add_location(p, file$1, 70, 2, 1763);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -748,7 +748,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			p.textContent = "Let's enter some contacts";
-    			add_location(p, file$1, 81, 2, 2022);
+    			add_location(p, file$1, 81, 2, 2060);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -796,7 +796,7 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = space();
     			create_component(contactcard.$$.fragment);
-    			add_location(h2, file$1, 73, 2, 1817);
+    			add_location(h2, file$1, 73, 2, 1855);
     			this.first = h2;
     		},
     		m: function mount(target, anchor) {
@@ -946,39 +946,39 @@ var app = (function () {
     			}
 
     			attr_dev(label0, "for", "userName");
-    			add_location(label0, file$1, 47, 4, 977);
+    			add_location(label0, file$1, 47, 4, 1015);
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "id", "userName");
-    			add_location(input0, file$1, 48, 4, 1022);
+    			add_location(input0, file$1, 48, 4, 1060);
     			attr_dev(div0, "class", "form-control");
-    			add_location(div0, file$1, 46, 2, 945);
+    			add_location(div0, file$1, 46, 2, 983);
     			attr_dev(label1, "for", "jobTitle");
-    			add_location(label1, file$1, 51, 4, 1121);
+    			add_location(label1, file$1, 51, 4, 1159);
     			attr_dev(input1, "type", "text");
     			attr_dev(input1, "id", "jobTitle");
-    			add_location(input1, file$1, 52, 4, 1166);
+    			add_location(input1, file$1, 52, 4, 1204);
     			attr_dev(div1, "class", "form-control");
-    			add_location(div1, file$1, 50, 2, 1089);
+    			add_location(div1, file$1, 50, 2, 1127);
     			attr_dev(label2, "for", "image");
-    			add_location(label2, file$1, 55, 4, 1266);
+    			add_location(label2, file$1, 55, 4, 1304);
     			attr_dev(input2, "type", "text");
     			attr_dev(input2, "id", "image");
-    			add_location(input2, file$1, 56, 4, 1308);
+    			add_location(input2, file$1, 56, 4, 1346);
     			attr_dev(div2, "class", "form-control");
-    			add_location(div2, file$1, 54, 2, 1234);
+    			add_location(div2, file$1, 54, 2, 1272);
     			attr_dev(label3, "for", "desc");
-    			add_location(label3, file$1, 59, 4, 1405);
+    			add_location(label3, file$1, 59, 4, 1443);
     			attr_dev(textarea, "rows", "3");
     			attr_dev(textarea, "id", "desc");
-    			add_location(textarea, file$1, 60, 4, 1448);
+    			add_location(textarea, file$1, 60, 4, 1486);
     			attr_dev(div3, "class", "form-control");
-    			add_location(div3, file$1, 58, 2, 1373);
+    			add_location(div3, file$1, 58, 2, 1411);
     			attr_dev(div4, "id", "form");
     			attr_dev(div4, "class", "svelte-pd4ajg");
-    			add_location(div4, file$1, 45, 0, 926);
-    			add_location(button0, file$1, 65, 0, 1528);
-    			add_location(button1, file$1, 66, 0, 1585);
-    			add_location(button2, file$1, 67, 0, 1639);
+    			add_location(div4, file$1, 45, 0, 964);
+    			add_location(button0, file$1, 65, 0, 1566);
+    			add_location(button1, file$1, 66, 0, 1623);
+    			add_location(button2, file$1, 67, 0, 1677);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1145,10 +1145,10 @@ var app = (function () {
     function instance$1($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("App", slots, []);
-    	let name = "Max";
-    	let title = "";
-    	let image = "";
-    	let description = "";
+    	let name = "Alex Horn";
+    	let title = "Developer";
+    	let image = "favicon.png";
+    	let description = "C# Developer";
     	let formState = "empty";
     	let createdContacts = [];
 
